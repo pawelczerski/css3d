@@ -1,0 +1,36 @@
+highlighter: pygments
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+port: 3000
+timezone: Europe/Warsaw
+
+url: ""
+baseurl: ""
+title: ""
+name: ""
+author: "Paweł Czerski"
+description: ""
+# avatar: profile.png
+email: "pawel@front-trends.com"
+twitter: "czerskip"
+google_analytics: ""
+
+sass:
+    style: compressed
+    sass_dir: static/css
+
+compress_html:
+    clippings: all
+    comments: all
+    startings: []
+    endings: []
+    ignore:
+        envs: [local]
+    blanklines: false
+    profile: false
+
+gems:
+    - jekyll-sitemap
+    

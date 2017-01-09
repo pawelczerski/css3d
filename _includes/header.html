@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="{{ site.description }}"/>
+        <link rel="shortcut icon" type="image/png" href="/static/img/icon.png?{{ site.time | date_to_xmlschema | slugify }}"/>
+
+        <link href="{{ site.baseurl }}/static/css/main.css?{{ site.time | date_to_xmlschema | slugify }}" type="text/css" rel="stylesheet"/>
+
+        <meta name="author" content="{{ site.author }}"/>
+
+        <meta name="theme-color" content="#333333"/>
+    </head>
+    <body class="{{ page.active }}">
+        <script>
+            document.documentElement.className += ' js loading';
+        </script>
+
+        <nav>
+            <ul>
+                <li><a data-style="wireframe">toggle wireframe</a></li>
+                <li><a data-style="live-content">toggle live content</a></li>
+                <li><a data-object="open">toggle open</a></li>
+                <li><a data-view="1">view 1</a></li>
+                <li><a data-view="2">view 2</a></li>
+                <li><a data-view="3">view 3</a></li>
+                <li><a data-view="4">view 4</a></li>
+            </ul>
+        </nav>

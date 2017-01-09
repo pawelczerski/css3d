@@ -1,0 +1,42 @@
+$for-phone: "<600px";
+$for-tablet-portrait-up: ">=600px";
+$for-tablet-landscape-up: ">=900px";
+$for-laptop-up: ">=1200px";
+$for-desktop-up: ">=1500px";
+$for-big-desktop-up: ">=1800px";
+
+
+@-ms-viewport{
+    width: device-width;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    color: inherit;
+    font: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th {
+    padding: 0;
+}
